@@ -16,56 +16,54 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <main>
-      <div class="score-component">
-        <article class="score-card">
-          <h2 class="score-card_title">Your Result</h2>
+    <main class="score-component">
+      <h1 class="visually-hidden">Results summary component</h1>
+      <article class="score-card">
+        <h2 class="score-card_title">Your Result</h2>
 
-          <section class="score-card_score-container">
-            <span class="score-container_score">76</span>
-            <span class="score-container_max-score">of 100</span>
-          </section>
+        <div class="score-card_score-container">
+          <span class="score-container_score">76</span>
+          <span class="score-container_max-score">of 100</span>
+        </div>
 
-          <section class="score-card_info">
-            <h3 class="score-card_info-title">Great</h3>
-            <p class="score-card_info-text">
-              You scored higher than 65% of the people who have taken these
-              tests.
-            </p>
-          </section>
-        </article>
-
-        <section class="score-summary">
-          <h2 class="title">Summary</h2>
-          <ul class="list">
-            <li class="item item--reaction">
-              <span class="item-label">Reaction</span>
-              <span class="item-score"
-                >80 <span class="item-max-score">/ 100</span></span
-              >
-            </li>
-            <li class="item item--memory">
-              <span class="item-label">Memory</span>
-              <span class="item-score"
-                >92 <span class="item-max-score">/ 100</span></span
-              >
-            </li>
-            <li class="item item--verbal">
-              <span class="item-label">Verbal</span>
-              <span class="item-score"
-                >61 <span class="item-max-score">/ 100</span></span
-              >
-            </li>
-            <li class="item item--visual">
-              <span class="item-label">Visual</span>
-              <span class="item-score"
-                >72 <span class="item-max-score">/ 100</span></span
-              >
-            </li>
-          </ul>
-          <button type="button" class="button">Continue</button>
+        <section class="score-card_info">
+          <h3 class="score-card_info-title">Great</h3>
+          <p class="score-card_info-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </section>
-      </div>
+      </article>
+
+      <section class="score-summary">
+        <h2 class="title">Summary</h2>
+        <ul class="list">
+          <li class="item item--reaction">
+            <span class="item-label">Reaction</span>
+            <span class="item-score"
+              >80 <span class="item-max-score">/ 100</span></span
+            >
+          </li>
+          <li class="item item--memory">
+            <span class="item-label">Memory</span>
+            <span class="item-score"
+              >92 <span class="item-max-score">/ 100</span></span
+            >
+          </li>
+          <li class="item item--verbal">
+            <span class="item-label">Verbal</span>
+            <span class="item-score"
+              >61 <span class="item-max-score">/ 100</span></span
+            >
+          </li>
+          <li class="item item--visual">
+            <span class="item-label">Visual</span>
+            <span class="item-score"
+              >72 <span class="item-max-score">/ 100</span></span
+            >
+          </li>
+        </ul>
+        <button type="button" class="button">Continue</button>
+      </section>
     </main>
 
     <footer class="attribution">
